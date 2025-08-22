@@ -21,8 +21,8 @@
 - `ipconfig /flushdns` and `netsh winsock reset`.
 
 **Result:** NCSI back to “Internet access”.  
-**What I learned:** Windows uses NCSI HTTP/DNS probes; false negatives are common with DNS blockers; how to validate network stack.
+**What I learned:** Windows uses NCSI HTTP/DNS probes; false negatives are common with DNS blockers; how to validate the network stack.
 
 _Screenshots:_
-![NCSI error](screenshots/ncsi-error.png)
-![Fix verified](screenshots/ncsi-ok.png)
+![test](screenshots/test.png)
+
