@@ -33,6 +33,6 @@
 **What I learned:** Set a static IP before joining the domain.
 
 _Screenshots:_
-![test](screenshots/test.png)
+![test](screenshots/DNS.png)
 
 
