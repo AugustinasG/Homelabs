@@ -33,7 +33,8 @@
 **What I learned:** Set a static IP before joining the domain.
 
 _Screenshots:_
-![test](screenshots/DNS.png)
-![test](screenshots/DHCP.png)
+![dns](screenshots/DNS.png)
+![dhcp](screenshots/DHCP.png)
+![scope](screenshots/SCOPE.png)
 
 
