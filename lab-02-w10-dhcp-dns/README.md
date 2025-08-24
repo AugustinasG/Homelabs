@@ -34,5 +34,6 @@
 
 _Screenshots:_
 ![test](screenshots/DNS.png)
+![test](screenshots/DHCP.png)
 
 
