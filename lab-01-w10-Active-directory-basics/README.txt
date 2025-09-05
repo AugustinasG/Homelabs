@@ -40,8 +40,13 @@ To create organizational units, users, and security groups. Test password change
 ---
 
 **Screenshots:**
-![DNS Config](./screenshots/DNS.png)
-![DHCP Config](./screenshots/DHCP.png)
-![DHCP Scope](./screenshots/SCOPE.png)
+![OU](./screenshots/OU.png)
+![IT-alice](./screenshots/IT-alice.png)
+![HR-bob](./screenshots/HR-bob.png)
+![sales-charlie](./screenshots/sales-charlie.png)
+![security-group-alice](./screenshots/security-group-alice.png)
+![alice-login](./screenshots/alice-login.png)
+![alice-password-change](./screenshots/alice-password-change.png)
+![alice-logged-in](./screenshots/alice-logged-in.png)
 
 
