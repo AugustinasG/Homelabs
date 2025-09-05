@@ -41,7 +41,7 @@ To create organizational units, users, and security groups. Test password change
 
 **Screenshots:**
 ![OU](./screenshots/OU.png)
-![IT-alice](./screenshots/IT-alice.png)
+![IT-alice](./screenshots/it-alice.png)
 ![HR-bob](./screenshots/HR-bob.png)
 ![sales-charlie](./screenshots/sales-charlie.png)
 ![security-group-alice](./screenshots/security-group-alice.png)
