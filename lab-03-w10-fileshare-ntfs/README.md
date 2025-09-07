@@ -39,14 +39,14 @@ Set up a shared folder so IT staff can access it, but HR cannot.
 ---
 
 **Screenshots:**
-![OU](./screenshots/OU.png)
-![IT-alice](./screenshots/it-alice.png)
-![HR-bob](./screenshots/HR-bob.png)
-![sales-charlie](./screenshots/sales-charlie.png)
-![security-group-alice](./screenshots/security-group-alice.png)
-![alice-login](./screenshots/alice-login.png)
-![alice-password-change](./screenshots/alice-password-change.png)
-![alice-logged-in](./screenshots/alice-logged-in.png)
+![Share-permissions](./screenshots/Share-permissions.png)
+![ntfs-permissions](./screenshots/ntfs-permissions.png)
+![alice-shares](./screenshots/alice-shares.png)
+![Bob-shares](./screenshots/Bob-shares.png)
+![mapped-drive](./screenshots/mapped-drive.png)
+![alice-mapped](./screenshots/alice-mapped.png)
+![bob-mapped](./screenshots/bob-mapped.png)
+
 
 
 
