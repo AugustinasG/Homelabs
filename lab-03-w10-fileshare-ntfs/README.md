@@ -8,23 +8,27 @@ Set up a shared folder so IT staff can access it, but HR cannot.
 **Environment:**
 
 * Windows 10 Pro (Oracle VirtualBox)
-- Roles: AD DS, DNS, DHCP, OUs
+- Joined to Lab.local domain
+- Test clients: Alice (IT), Bob (HR)
 * Windows Server 2022 (Oracle VirtualBox)
-- Joined to Server 2022 domain.
+- Roles: AD DS, DNS, DHCP
+- Domain Controller for LAB.local
 
 ---
 
 **Steps to Reproduce:**
 
-1. Created the Shared Folder (Full control permissions for IT, denied permissions for HR)
-2. Configured NTFS Permissions (Modify control permissions for IT, denied permissions for HR)
-3. Opened the shared folder with the IT user, got denied with the HR user.
-4. Used Net Use to map the shared folder for both IT and HR.
+1. Created the Shared Folder (Share permissions: IT = full control, HR = Deny).
+2. Configured NTFS Permissions (Share permissions: IT = Modify, HR = Deny).
+3. Tested access: Alice (IT) success, Bob (HR) denied.
+4. Used `net use` to map the share from both users.
 
 
 
 **Result:**
 
+- IT (Alice) = Access success
+- HR (Bob) = Access denied
 - IT users can access the shared folder while HR can't.
 
 
@@ -32,9 +36,10 @@ Set up a shared folder so IT staff can access it, but HR cannot.
 
 **What I Learned:**
 
-- How shared folders and permissions behave.
-- Whole process from shared folder creation to permissions.
-- Using the net use CLI command.
+- Difference between Share vs NTFS permissions
+- How to test permissions using multiple domain users
+- Mapping drives via command line (`net use`)
+- Validating access control in a real-world scenario
 
 ---
 
