@@ -39,13 +39,15 @@ Creation of different local users. Applying different password policies and mana
 ---
 
 **Screenshots:**
-![Share-permissions](./screenshots/Share-permissions.png)
-![ntfs-permissions](./screenshots/ntfs-permissions.png)
-![alice-shares](./screenshots/alice-shares.png)
-![Bob-shares](./screenshots/Bob-shares.png)
-![mapped-drive](./screenshots/mapped-drive.png)
-![alice-mapped](./screenshots/alice-mapped.png)
-![bob-mapped](./screenshots/bob-mapped.png)
+![local-users-created](./screenshots/local-users-created.png)
+![helpdesk-group](./screenshots/helpdesk-group.png)
+![supervisors-group](./screenshots/supervisors-group.png)
+![administrator-groups](./screenshots/administrator-groups.png)
+![password-policy](./screenshots/password-policy.png)
+![local-security-policy](./screenshots/local-security-policy.png)
+![helpdesk-lockedout](./screenshots/helpdesk-lockedout.png)
+![supervisor-admin](./screenshots/supervisor-admin.png)
+![tech-normal-user](./screenshots/tech-normal-user.png)
 
 
 
