@@ -14,27 +14,40 @@ Practice creating and managing local users, groups, and security policies on a s
 
 **Steps to Reproduce:**
 
-1. Created local users (Three accounts = Helpdesk1, Tech1, Supervisor1)
-2. Created Helpdesk group and Supervisos Group. Put Helpdesk1 and Tech1 into Helpdesk, Supervisor1 into the Supervisors group. Added Supervisor1 to the Administrators group.
-3. Applied Local security policies. Set the Minimum password length to 8, the maximum password age to 30 days, account lockout after 3 invalid attempts, and lockout duration set to 30 minutes.
-4. Entered the wrong password 3 times with Helpdesk1 and got locked out. Logged in with supervisor1 and checked the Administrator status.
+1.
+- Created local users: `Helpdesk1`, `Tech1`, and `Supervisor1`.
 
+2. 
+- Created `Helpdesk` group and added `Helpdesk1` + `Tech1`. 
+- Created `Supervisors` group and added `Supervisors1`.
+- Added `Supervisor1` to the built-in `Administrators` group.
+
+3. 
+- Set **Minimum password length** to 8 characters.
+- Set **Maximum password age** to 30 days.
+- Enabled **Account lockout** after 3 invalid login attempts.
+- Set **Lockout duration** to 30 minutes.
+
+4. 
+- Entered incorrect password 3 times for `Heldpesk1` > Account locked.
+- Logged in with `Supervisor1` and verified Administrator rights.
 
 
 **Result:**
 
-Three local user accounts created.
-Users were sorted into groups.
-Local security policies were applied.
-Helpdesk1 got locked out.
-Supervisor1 had administrator status.
-
+- Three local user accounts created.
+- Users organized into appropriate groups.
+- `Helpdesk1` account locked after failed attempts.
+- `Supervisor1` confirmed to have Administrator privileges.
 
 ---
 
 **What I Learned:**
 
-Creation of different local users. Applying different password policies and managing users.
+- How to create and manage local user accounts.
+- How to configure local group memberships.
+- How to apply and test password and lockout policies.
+- How to verify administrative privileges.
 
 ---
 
