@@ -12,3 +12,7 @@ Each lab includes a short scenario, steps taken, and results.
 ## How to use
 - Open any lab’s folder and read its `README.md`.
 - Screenshots are under `screenshots/`.
+
+## Other Repos
+
+**Bigger Projects** → [project-01-mini-enterprise-mailing-ticketing-environment](project-01-mini-enterprise-mailing-ticketing-environment/README.md)
