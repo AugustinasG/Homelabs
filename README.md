@@ -15,4 +15,4 @@ Each lab includes a short scenario, steps taken, and results.
 
 ## Other Repos
 
-**Bigger Projects** → [project-01-mini-enterprise-mailing-ticketing-environment](project-01-mini-enterprise-mailing-ticketing-environment/README.md)
+**Bigger Projects** → [projects](projects/README.md)
