@@ -15,4 +15,4 @@ Each lab includes a short scenario, steps taken, and results.
 
 ## Other Repos
 
-**Bigger Projects** → [projects](projects/README.md)
+**Bigger Projects** → [Projects](Projects/README.md)
