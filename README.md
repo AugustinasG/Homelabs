@@ -15,4 +15,9 @@ Each lab includes a short scenario, steps taken, and results.
 
 ## Other Repos
 
-**Bigger Projects** → [Projects](Projects/README.md)
+## Other Repos
+
+**Bigger Projects**
+- [Projects repo (root)](https://github.com/AugustinasG/Projects)
+(https://github.com/AugustinasG/Projects/tree/main/project-01-mini-enterprise-mailing-ticketing-environment)
+
