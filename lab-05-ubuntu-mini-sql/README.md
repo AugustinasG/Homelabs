@@ -15,8 +15,9 @@ Install MySQL on Ubuntu Linux and perform basic CRUD operations (create, read, u
 1. Installed MySQL in Ubuntu Linux using the official [MySQL APT Repository documentation](https://dev.mysql.com/doc/refman/8.4/en/linux-installation-apt-repo.html).
 
    ```bash
+   sudo dpkg -i mysql-apt-config_0.8.34-1_all.deb
    sudo apt update
-   sudo apt install mysql-server -y
+   sudo apt-get install mysql-server
 
 2. Logged into MySQL as root:
 
